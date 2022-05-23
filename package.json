@@ -1,0 +1,14 @@
+{
+  "name": "unit_test",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
