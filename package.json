@@ -10,6 +10,7 @@
     "test": "jest"
   },
   "jest": {
+    "maxConcurrency": 10,
     "verbose": true,
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
